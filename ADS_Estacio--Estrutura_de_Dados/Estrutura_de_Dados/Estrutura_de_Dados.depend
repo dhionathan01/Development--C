@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1647451474 source:c:\users\dhion\documents\git\development--cpp\ads_estacio--estrutura_de_dados\estrutura_de_dados\criandoumafila.c
+	<stdio.h>
+
+1584205420 source:c:\users\dhion\documents\git\development--cpp\ads_estacio--estrutura_de_dados\estrutura_de_dados\main.c
+	<stdio.h>
+	<stdlib.h>
+
