@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1648493223 source:c:\users\dhion\documents\git\development--cpp\ads_estacio--estrutura_de_dados\vetores\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1648491495 source:c:\users\dhion\documents\git\development--cpp\ads_estacio--estrutura_de_dados\vetores\exemplo2.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

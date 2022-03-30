@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1648584531 source:c:\users\dhion\documents\git\development--cpp\ads_estacio--estrutura_de_dados\exercicio1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
