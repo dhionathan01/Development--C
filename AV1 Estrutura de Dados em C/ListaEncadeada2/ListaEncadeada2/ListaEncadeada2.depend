@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1650062125 source:c:\users\dhion\documents\git\development--cpp\trabalho 1 bruno\listaencadeada2\listaencadeada2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

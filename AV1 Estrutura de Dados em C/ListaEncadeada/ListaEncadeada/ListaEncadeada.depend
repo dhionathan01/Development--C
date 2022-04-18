@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1650078698 source:c:\users\dhion\documents\git\development--cpp\trabalho 1 bruno\listaencadeada\listaencadeada\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1650079393 source:c:\users\dhion\documents\git\development--cpp\av1 estrutura de dados em c\listaencadeada\listaencadeada\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

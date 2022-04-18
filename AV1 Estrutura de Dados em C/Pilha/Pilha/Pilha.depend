@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1650079976 source:c:\users\dhion\documents\git\development--cpp\trabalho 1 bruno\pilha\pilha\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
