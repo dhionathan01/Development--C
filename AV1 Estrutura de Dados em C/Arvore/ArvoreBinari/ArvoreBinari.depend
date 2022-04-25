@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1650907522 source:c:\users\dhion\documents\git\development--cpp\av1 estrutura de dados em c\arvore\arvorebinari\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

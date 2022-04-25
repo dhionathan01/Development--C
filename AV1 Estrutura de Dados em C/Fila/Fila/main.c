@@ -54,13 +54,12 @@ int main(void) {
     int exibir = 0;
 
     do{
+    system("cls"); // Limpa o terminal
     if(exibir == 1){
         system("cls"); // Limpa o terminal
         printf("Conteúdo da Fila: \n");
         exibir_fila(fila, &endereco);
         printf("\n");
-    }else{
-        system("cls"); // Limpa o terminal
     }
 
     if(opcao == 4){
