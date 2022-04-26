@@ -2,6 +2,23 @@
 #include <stdlib.h>
 #include <locale.h>
 
+/*
+visita(p) conteúdo do nó apontado por p
+esquerda(p) ponteiro para o filho da esquerda de p
+
+direita(p) ponteiro para o filho da direita de p
+
+pai(p) ponteiro para o pai de p
+
+irmão(p) ponteiro para o irmão de p
+
+eh_esq(p) Retorna true se p é filho da esquerda e false, se filho
+da direita
+
+eh_dir(p) Retorna true se p é filho da esquerda e false, se filho
+da direita
+*/
+
 struct elemento{
     int valor;
 };
@@ -139,8 +156,16 @@ int main()
     No *raiz = NULL;
     int opcao = NULL;
     int valor = NULL;
+    int exibicao = 0;
 
     do{
+        system("cls");
+        if (exibicao == 1){
+            printf("Conteúdo da Àrvore: ");
+            exibir(raiz);
+            printf("\n \n");
+        }
+        exibicao = 0;
         printf("Escolha uma das opções:\n"
             " 1 - Adicionar na Arvore\n"
             " 2 - Remover da lista \n"
@@ -149,36 +174,22 @@ int main()
             "Escolha opção: ");
 
         scanf("%d", &opcao);
+
         if(opcao == 1){
             printf("Insira o valor: ");
             scanf("%d", &valor);
             raiz = inserir(raiz, criarNovoElemento(valor));
-            exibir(raiz);
         }
         else if(opcao == 2){
             printf("Insira o valor a remover: ");
             scanf("%d", &valor);
             raiz = remover(raiz, valor);
-            exibir(raiz);
         }
-    }while(opcao != 0);
-    /*
-    raiz = inserir(raiz, criarNovoElemento(20));
-    raiz = inserir(raiz, criarNovoElemento(35));
-    raiz = inserir(raiz, criarNovoElemento(14));
-    raiz = inserir(raiz, criarNovoElemento(24));
-    raiz = inserir(raiz, criarNovoElemento(16));
-    exibir(raiz);
+        else if(opcao == 3){
+            exibicao = 1;
+        }
 
-    No *noTemporario = busca(raiz, 14);
-    if(noTemporario == NULL){
-        printf("\nElemento não encontrado \n");
-    }else{
-        printf("\nElemento [%d] encontrado \n", &noTemporario->elemento.valor);
-    }
-    limparNo(raiz);
-    raiz = remover(raiz, 20);
-    exibir(raiz);
-    */
+    }while(opcao != 0);
+
     return 0;
 }
